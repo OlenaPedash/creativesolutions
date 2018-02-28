@@ -1,0 +1,20 @@
+//- _menu.pug
+.container-fluid.menu
+  .container
+    nav.navbar.navbar-expand-lg
+      a(href="#top").navbar-brand 
+        svg.menu__logo
+          use(xlink:href="./img/svg-icons.svg#logo")
+      a(href="#0").menu__toggler.navbar-toggler &#9776;
+      .collapse.navbar-collapse
+        ul.menu__nav.navbar-nav.ml-md-auto
+          li.menu__item.navbar-item
+            a.menu__link.navbar-link(href="#top") Home
+          li.menu__item.navbar-item
+            a.menu__link.navbar-link(href="#about") About
+          li.menu__item.navbar-item
+            a.menu__link.navbar-link(href="#services") Services
+          li.menu__item.navbar-item
+            a.menu__link.navbar-link(href="#works") Works
+          li.menu__item.navbar-item
+            a.menu__link.navbar-link(href="#contact") Contact
